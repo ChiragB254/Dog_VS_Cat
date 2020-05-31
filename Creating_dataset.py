@@ -7,7 +7,7 @@ DataSer = r"E:\ML_Material\Projects\Project_1\Dog_vs_Cat\train/"
 
 CATAGORIES = ["Dog","Cat"]
 
-
+''''
 for i in CATAGORIES:
     path = os.path.join(DataSer,i)
     for img in os.listdir(path):
@@ -79,8 +79,6 @@ pickle_out = open(
 pickle.dump(Y,pickle_out)
 pickle_out.close()
 
+''''
 
-# After Making Pickle files
-# We can comment out the whole program  after Catagory = ["..",".."]
-# To the end of the program i.e upto pickle_out.close()
 
